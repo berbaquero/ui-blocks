@@ -1,0 +1,15 @@
+@import "../base/variables";
+
+.code-block {
+	font-size: 18px;
+	line-height: 1.3em;
+	cursor: default;
+
+	&__title {
+		text-transform: uppercase;
+	}
+
+	code:hover {
+		color: $main-color;
+	}
+}
