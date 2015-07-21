@@ -1,3 +1,5 @@
+@import "../base/variables";
+
 .ui-flx {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -53,4 +55,8 @@
 	&:focus {
 		text-decoration: underline;
 	}
+}
+
+.ui-clr-main {
+	color: $main-color;
 }

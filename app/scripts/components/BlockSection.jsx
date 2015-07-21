@@ -27,7 +27,7 @@ const BlockSection = React.createClass({
 		return (
 			<div id={title}
 				 className='code-block ui-pad-x ui-mrgn-y ui-half-w ui-bbox'>
-				<a className='code-block__title ui-link'
+				<a className='code-block__title ui-link ui-clr-main'
 				   href={'#' + title}>{title}</a>
 				{blocks.map(block =>
 					<pre>

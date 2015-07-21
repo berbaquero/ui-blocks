@@ -35,7 +35,7 @@ const Main = React.createClass({
 			<div>
 				<nav className='ui-mrgn-y'>
 					{titles.map(title =>
-						<a className='ui-mrgn-x'
+						<a className='ui-mrgn-x ui-clr-main'
 						   href={'#' + title}>{title}</a>)
 					}
 				</nav>
