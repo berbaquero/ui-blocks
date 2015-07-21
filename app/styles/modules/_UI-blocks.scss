@@ -1,0 +1,56 @@
+.ui-flx {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.ui-flx-wrap {
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.ui-mrgn-x {
+	margin: {
+		left: 1em;
+		right: 1em;
+	}
+}
+
+.ui-mrgn-y {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.ui-pad-x {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.ui-half-w {
+	width: 50%;
+}
+
+.ui-bbox {
+	box-sizing: border-box;
+}
+
+.ui-row {
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+}
+
+.ui-col {
+	display: table-cell;
+}
+
+.ui-link {
+	text-decoration: none;
+
+	&:hover,
+	&:focus {
+		text-decoration: underline;
+	}
+}
