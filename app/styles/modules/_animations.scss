@@ -1,0 +1,22 @@
+@-webkit-keyframes reveal {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes reveal {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.anim-reveal {
+	-webkit-animation: reveal 300ms both;
+	animation: reveal 300ms both;
+}
