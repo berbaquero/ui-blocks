@@ -52,3 +52,11 @@
 		@content;
 	}
 }
+
+@mixin on-break-point($min-width) {
+	@at-root & {
+		@media (min-width: $min-width) {
+			@content;
+		}
+	}
+}

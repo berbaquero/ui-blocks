@@ -1,4 +1,11 @@
+@import "../base/mixins";
+
 body {
 	font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	margin: 1em 2em;
+	margin: 1em;
+	scroll-behavior: smooth;
+
+	@include on-break-point(60em) {
+		margin: 1em 2em;
+	}
 }

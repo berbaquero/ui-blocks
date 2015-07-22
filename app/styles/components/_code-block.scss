@@ -1,9 +1,15 @@
 @import "../base/variables";
+@import "../base/mixins";
 
 .code-block {
 	font-size: 18px;
 	line-height: 1.3em;
 	cursor: default;
+	width: 100%;
+
+	@include on-break-point(52em) {
+		width: 50%;
+	}
 
 	&__title {
 		text-transform: uppercase;

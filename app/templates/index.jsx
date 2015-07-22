@@ -8,7 +8,18 @@ const Index = React.createClass({
 			<Root scripts={['dist/main.js']}
 				  styles={['dist/main.css']}
 				  title='UI Blocks'>
-				<h1>UI Blocks</h1>
+
+				<header>
+					<h1 className='ui-nln-b'>UI Blocks</h1>
+
+					<a href="https://gist.github.com/berbaquero/453abbd8f6d49afecd16"
+					   target="_blank"
+					   className='ui-mrgn-x ui-pad-x ui-brdr ui-clr-main'>Source</a>
+
+					<div id='app-menu'
+						 className='ui-nln-b ui-mrgn-x'></div>
+				</header>
+
 				<div id="app-container"></div>
 			</Root>
 		)

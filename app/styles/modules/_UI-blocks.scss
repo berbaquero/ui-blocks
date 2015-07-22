@@ -38,16 +38,6 @@
 	box-sizing: border-box;
 }
 
-.ui-row {
-	width: 100%;
-	display: table;
-	table-layout: fixed;
-}
-
-.ui-col {
-	display: table-cell;
-}
-
 .ui-link {
 	text-decoration: none;
 
@@ -59,4 +49,12 @@
 
 .ui-clr-main {
 	color: $main-color;
+}
+
+.ui-nln-b {
+	display: inline-block;
+}
+
+.ui-brdr {
+	border: 1px solid;
 }
