@@ -9,8 +9,8 @@ const Index = React.createClass({
 				  styles={['dist/main.css']}
 				  title='UI Blocks'>
 
-				<header>
-					<h1 className='ui-nln-b'>UI Blocks</h1>
+				<header className='ui-brdr-b ui-brdr-clr-main'>
+					<h1 className='ui-nln-b ui-heading'>UI Blocks</h1>
 
 					<a href="https://gist.github.com/berbaquero/453abbd8f6d49afecd16"
 					   target="_blank"

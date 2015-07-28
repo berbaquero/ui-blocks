@@ -51,10 +51,25 @@
 	color: $main-color;
 }
 
+.ui-brdr-clr-main {
+	border-color: $main-color;
+}
+
 .ui-nln-b {
 	display: inline-block;
 }
 
 .ui-brdr {
-	border: 1px solid;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.ui-brdr-b {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}
+
+.ui-heading {
+	text-transform: uppercase;
+	letter-spacing: 5px;
 }
