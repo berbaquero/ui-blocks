@@ -13,6 +13,20 @@
 	flex-wrap: wrap;
 }
 
+.ui-flx-cntr-y {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.ui-flx-spc-btwn-x {
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
 .ui-mrgn-x {
 	margin: {
 		left: 1em;
@@ -69,7 +83,16 @@
 	border-bottom-style: solid;
 }
 
+.ui-brdr-t {
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+
 .ui-heading {
 	text-transform: uppercase;
 	letter-spacing: 5px;
+}
+
+.ui-txt-bld {
+	font-weight: 500;
 }

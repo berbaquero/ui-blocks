@@ -15,7 +15,18 @@
 		text-transform: uppercase;
 	}
 
-	code:hover {
-		color: $main-color;
+	&__content {
+		cursor: pointer;
+		border: 2px solid #eee;
+	}
+
+	::-moz-selection {
+		color: $bg;
+		background-color: $selector;
+	}
+
+	::selection {
+		color: $bg;
+		background-color: $selector;
 	}
 }

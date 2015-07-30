@@ -6,6 +6,6 @@ body {
 	scroll-behavior: smooth;
 
 	@include on-break-point(60em) {
-		margin: 1em 2em;
+		margin: 1em 2em 3em;
 	}
 }

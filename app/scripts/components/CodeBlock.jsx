@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BlockSection = React.createClass({
+const CodeBlock = React.createClass({
 
 	selectText(ev) {
 		const element = ev.target;
@@ -28,17 +28,19 @@ const BlockSection = React.createClass({
 			<div id={title}
 				 className='code-block ui-pad-x ui-mrgn-y ui-bbox anim-reveal'>
 
-				<a className='code-block__title ui-link ui-clr-main'
+				<a className='code-block__title ui-link ui-clr-main ui-txt-bld ui-heading'
 				   href={'#' + title}>{title}</a>
 
 				{blocks.map((block, index) =>
-					<pre key={index}>
-						<code onClick={this.selectText}>{block}</code>
+					(<pre key={index}
+						  onClick={this.selectText}
+						  className='code-block__content'>
+						<code className='language-css'>{block}</code>
 					</pre>
-				)}
+					))}
 			</div>
 		)
 	}
 });
 
-export default BlockSection;
+export default CodeBlock;
