@@ -3,6 +3,7 @@ import React from 'react';
 const CodeBlock = React.createClass({
 
 	selectText(ev) {
+		ev.preventDefault();
 		const element = ev.target;
 		var range, selection;
 		if (document.body.createTextRange) {
@@ -32,11 +33,14 @@ const CodeBlock = React.createClass({
 				   href={'#' + title}>{title}</a>
 
 				{blocks.map((block, index) =>
-					(<pre key={index}
-						  onClick={this.selectText}
-						  className='code-block__content'>
-						<code className='language-css'>{block}</code>
-					</pre>
+					(<a href='#'
+						className='ui-no-ndrln code-block__anchor'
+						key={index}
+						onClick={this.selectText}>
+						<pre className='code-block__content'>
+							<code className='language-css'>{block}</code>
+						</pre>
+					 </a>
 					))}
 			</div>
 		)

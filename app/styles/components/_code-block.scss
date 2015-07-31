@@ -1,8 +1,9 @@
 @import "../base/variables";
 @import "../base/mixins";
 
+$border-color: #eee;
+
 .code-block {
-	font-size: 18px;
 	line-height: 1.3em;
 	cursor: default;
 	width: 100%;
@@ -16,8 +17,21 @@
 	}
 
 	&__content {
-		cursor: pointer;
-		border: 2px solid #eee;
+		border: 2px solid $border-color;
+	}
+
+	&__anchor {
+		outline: none;
+	}
+
+	&__anchor:hover &__content {
+		border-color: darken($border-color, 5%);
+		background-color: lighten($bg, 1%);
+	}
+
+	&__anchor:focus &__content {
+		border-color: lighten($main-color, 40%);
+		background-color: lighten($main-color, 50%);
 	}
 
 	::-moz-selection {
