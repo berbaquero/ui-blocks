@@ -7,7 +7,8 @@ const Index = React.createClass({
 		return (
 			<Root scripts={['dist/main.js']}
 				  styles={['dist/main.css']}
-				  title='UI Blocks'>
+				  title='UI Blocks'
+				  description='Tiny, reusable CSS utility classes for UI, with a different workflow'>
 
 				<header className='ui-brdr-b ui-brdr-clr-main ui-mrgn-y'
 						id='top'>
