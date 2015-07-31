@@ -14,7 +14,8 @@
     "build-statics": "node build",
     "watch-statics": "chokidar 'app/templates/*.jsx' -c 'node build'",
     "start": "npm run clean; npm run watch-styles & npm run watch-scripts & npm run watch-statics",
-    "build": "npm run clean; npm run build-styles; npm run build-scripts; npm run build-statics"
+    "build": "npm run clean; npm run build-styles; npm run build-scripts; npm run build-statics",
+    "deploy": "surge ./"
   },
   "dependencies": {
     "babel-core": "^5.5.6",
