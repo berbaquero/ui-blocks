@@ -15,6 +15,7 @@ const Index = React.createClass({
 
 					<a href="https://gist.github.com/berbaquero/453abbd8f6d49afecd16"
 					   target="_blank"
+					   tabIndex='1'
 					   className='ui-mrgn-x ui-pad-x ui-brdr ui-clr-main'>Source</a>
 
 					<div id='app-menu'

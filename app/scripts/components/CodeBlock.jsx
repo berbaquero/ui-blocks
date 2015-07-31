@@ -19,6 +19,12 @@ const CodeBlock = React.createClass({
 		}
 	},
 
+	handleKeyPress(ev) {
+		if (ev.which === 13) {
+			this.selectText(ev);
+		}
+	},
+
 	render() {
 		const regex = /\..*(\n.*){0,5}}/mg;
 		const rawContent = this.props.children;
@@ -33,15 +39,16 @@ const CodeBlock = React.createClass({
 				   href={'#' + title}>{title}</a>
 
 				{blocks.map((block, index) =>
-					(<a href='#'
-						className='ui-no-ndrln code-block__anchor'
-						key={index}
-						onClick={this.selectText}>
-						<pre className='code-block__content'>
+						(<div tabIndex='2'
+							  className='code-block__anchor'
+							  key={index}
+							  onKeyPress={this.handleKeyPress}>
+						 <pre className='code-block__content'
+							  onClick={this.selectText}>
 							<code className='language-css'>{block}</code>
 						</pre>
-					 </a>
-					))}
+						</div>)
+				)}
 			</div>
 		)
 	}

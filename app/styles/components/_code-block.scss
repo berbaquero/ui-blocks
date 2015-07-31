@@ -22,6 +22,7 @@ $border-color: #eee;
 
 	&__anchor {
 		outline: none;
+		cursor: pointer;
 	}
 
 	&__anchor:hover &__content {
