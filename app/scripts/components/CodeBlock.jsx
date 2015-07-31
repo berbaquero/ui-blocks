@@ -39,7 +39,7 @@ const CodeBlock = React.createClass({
 				   href={'#' + title}>{title}</a>
 
 				{blocks.map((block, index) =>
-						(<div tabIndex='2'
+						(<div tabIndex='0'
 							  className='code-block__anchor'
 							  key={index}
 							  onKeyPress={this.handleKeyPress}>

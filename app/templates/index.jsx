@@ -16,7 +16,7 @@ const Index = React.createClass({
 
 					<a href="https://gist.github.com/berbaquero/453abbd8f6d49afecd16"
 					   target="_blank"
-					   tabIndex='1'
+					   tabIndex='0'
 					   className='ui-mrgn-x ui-pad-x ui-brdr ui-clr-main'>Source</a>
 
 					<div id='app-menu'
@@ -30,10 +30,10 @@ const Index = React.createClass({
 					<h2 className='ui-heading'>UI Blocks</h2>
 					<a className='ui-clr-main'
 					   href="#top"
-					   tabIndex='3'>back to top</a>
+					   tabIndex='0'>back to top</a>
 					<a href="http://berbaquero.com"
 					   className='ui-heading ui-txt-bld ui-link ui-clr-main'
-					   tabIndex='3'>Bernardo Baquero Stand</a>
+					   tabIndex='0'>Bernardo Baquero Stand</a>
 				</footer>
 			</Root>
 		)

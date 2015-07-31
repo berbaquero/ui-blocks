@@ -13,7 +13,7 @@ class Menu extends React.Component {
 					<a className='ui-mrgn-x ui-mrgn-y ui-clr-main ui-nln-b'
 					   href={'#' + title}
 					   key={index}
-					   tabIndex='1'>{title}</a>)
+					   tabIndex='0'>{title}</a>)
 				}
 			</nav>
 		)
