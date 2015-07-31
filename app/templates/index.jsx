@@ -29,9 +29,11 @@ const Index = React.createClass({
 				<footer className='ui-flx ui-flx-cntr-y ui-flx-spc-btwn-x ui-brdr-t ui-brdr-clr-main'>
 					<h2 className='ui-heading'>UI Blocks</h2>
 					<a className='ui-clr-main'
-					   href="#top">back to top</a>
+					   href="#top"
+					   tabIndex='3'>back to top</a>
 					<a href="http://berbaquero.com"
-					   className='ui-heading ui-txt-bld ui-link ui-clr-main'>Bernardo Baquero Stand</a>
+					   className='ui-heading ui-txt-bld ui-link ui-clr-main'
+					   tabIndex='3'>Bernardo Baquero Stand</a>
 				</footer>
 			</Root>
 		)
