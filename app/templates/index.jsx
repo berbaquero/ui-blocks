@@ -12,7 +12,11 @@ const Index = React.createClass({
 
 				<header className='ui-brdr-b ui-brdr-clr-main ui-mrgn-y'
 						id='top'>
-					<h1 className='ui-nln-b ui-heading'>UI Blocks</h1>
+
+					<h1 className='ui-nln-b ui-heading'>
+						<a href='/'
+						   className='ui-link ui-dark'>UI Blocks</a>
+					</h1>
 
 					<a href="https://gist.github.com/berbaquero/453abbd8f6d49afecd16"
 					   target="_blank"
