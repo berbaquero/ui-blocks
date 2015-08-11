@@ -30,14 +30,12 @@ const Index = React.createClass({
 				<div id="app-container"
 					 className='ui-mrgn-y'></div>
 
-				<footer className='ui-flx ui-flx-cntr-y ui-flx-spc-btwn-x ui-brdr-t ui-brdr-clr-main'>
+				<footer className='ui-flx@big ui-flx-cntr-y ui-flx-spc-btwn-x ui-brdr-t ui-brdr-clr-main'>
 					<h2 className='ui-heading'>UI Blocks</h2>
-					<a className='ui-clr-main'
-					   href="#top"
-					   tabIndex='0'>back to top</a>
+					<a className='ui-clr-main back-top ui-blck ui-mrgn-y'
+					   href="#top">back to top</a>
 					<a href="http://berbaquero.com"
-					   className='ui-heading ui-txt-bld ui-link ui-clr-main'
-					   tabIndex='0'>Bernardo Baquero Stand</a>
+					   className='home-link ui-heading ui-txt-bld ui-link ui-clr-main ui-mrgn-y ui-blck'>Bernardo Baquero Stand</a>
 				</footer>
 			</Root>
 		)
