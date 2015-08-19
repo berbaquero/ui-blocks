@@ -1,7 +1,7 @@
 {
-  "name": "my-project-name",
+  "name": "ui-blocks",
   "version": "0.0.1",
-  "description": "My brilliant project's description",
+  "description": "Tiny, reusable CSS utility classes for UI",
   "appDir": "./app",
   "buildDir": "./dist",
   "templatesDir": "./app/templates",
